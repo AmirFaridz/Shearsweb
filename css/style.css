@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {background-color: pink}
+
+#kotak2 
+{
+    background-color:wheat;
+    margin: 0px auto 0px auto;
+    width:1000px;
+}
+
+#kotak 
+{
+    background-color:wheat;
+    margin: 0px auto 0px auto;
+    width:900px;
+}
+
+#Logo {float:left; }
+#Icon {float:right; }
+
+#Navigation 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    clear: both;
+    border-top:solid black 1px; 
+    border-bottom:solid black 1px; 
+    padding:20px 0px 20px 0px
+}
+
+#Navigation a 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black; 
+    margin:0px 25px 0px 0px;
+}
+
+#Navigation a:hover {color:purple;}
+
+#Title 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color:purple;
+    border-bottom:solid 1px black
+}
+
+#LeftContent img 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 25px;
+    border:solid black 1px; 
+    padding: 5px 5px 5px 5px;
+}
+
+#RightContent 
+{
+    float:right; width:250px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+}
+
+#RightContent h1 {margin-bottom: 10px; font-weight: bold;}
+#RightContent h3 {color:purple; margin-bottom: -10px; font-weight: bold;}
+#RightContent h2 {margin-bottom: 10px;font-weight: bold;}
+#RightContent p {margin-bottom: 10px;}
+#LeftContent {float:left; width: 650px}
+
+#Footer 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    clear:both; 
+    padding: 1px 0px 1px 0px;
+    border-top:solid 1px black;
+    text-align:center
+}
